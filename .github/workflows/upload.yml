@@ -25,3 +25,6 @@ jobs:
           -H "${{ env.API_KEY }}" \
           -F "file=@archive.zip" \
           -F "filename=archive.zip"
+
+      - name: Get new schem
+        run: curl -X GET 'https://apiv2.craftmywebsite.fr/v1/docs/schem'
