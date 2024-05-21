@@ -1,0 +1,27 @@
+name: Update CraftMyWebsite documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create ZIP archive
+        run: zip -r archive.zip .
+
+      - name: Send archive to API
+        env:
+          API_URL: ${{ secrets.API_URL }}
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          curl -X POST ${{ env.API_URL }} \
+          -H "${{ env.API_KEY }}" \
+          -F "file=@archive.zip" \
+          -F "filename=archive.zip"
