@@ -23,10 +23,12 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           response=$(curl -X POST ${{ env.API_URL }} \
-          -H "${{ env.API_KEY }}" \
+          -H "Authorization: Bearer ${{ env.API_KEY }}" \
           -F "file=@archive.zip" \
           -F "filename=archive.zip")
-          echo "response=$response" >> $GITHUB_ENV
+          echo "response<<EOF" >> $GITHUB_ENV
+          echo "$response" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
 
       - name: Install jq
         run: sudo apt-get install -y jq
