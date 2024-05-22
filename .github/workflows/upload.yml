@@ -27,6 +27,7 @@ jobs:
           -F "file=@archive.zip" \
           -F "filename=archive.zip")
           echo "$response" > response.json
+          echo "$response"
 
       - name: Install jq
         run: sudo apt-get install -y jq
