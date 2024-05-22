@@ -23,7 +23,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
         run: |
           response=$(curl -X POST ${{ env.API_URL }} \
-          -H "Authorization: Bearer ${{ env.API_KEY }}" \
+          -H "${{ env.API_KEY }}" \
           -F "file=@archive.zip" \
           -F "filename=archive.zip")
           echo "response<<EOF" >> $GITHUB_ENV
