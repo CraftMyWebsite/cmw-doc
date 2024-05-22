@@ -26,21 +26,15 @@ jobs:
           -H "${{ env.API_KEY }}" \
           -F "file=@archive.zip" \
           -F "filename=archive.zip")
-          echo "response<<EOF" >> $GITHUB_ENV
-          echo "$response" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          echo "::set-output name=response::$response"
 
       - name: Install jq
         run: sudo apt-get install -y jq
 
       - name: Check API response
+        id: check_response
         run: |
-          if [ "$(echo ${{ env.response }} | jq -r '.status')" != "1" ]; then
-            echo "Error in API response."
-            exit 1
-          fi
-        env:
-          response: ${{ env.response }}
+          echo "${{ steps.send_archive.outputs.response }}" | jq -e '.status == 1' > /dev/null || { echo "Error in API response."; exit 1; }
 
       - name: Get new schem
         run: curl -X GET 'https://apiv2.craftmywebsite.fr/v1/docs/schem'
