@@ -17,15 +17,19 @@ jobs:
         run: zip -r archive.zip .
 
       - name: Send archive to API
+        id: send_archive
         env:
           API_URL: ${{ secrets.API_URL }}
           API_KEY: ${{ secrets.API_KEY }}
         run: |
-          curl -X POST ${{ env.API_URL }} \
+          response=$(curl -X POST ${{ env.API_URL }} \
           -H "${{ env.API_KEY }}" \
           -F "file=@archive.zip" \
-          -F "filename=archive.zip"
+          -F "filename=archive.zip")
           echo "response=$response" >> $GITHUB_ENV
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
 
       - name: Check API response
         run: |
