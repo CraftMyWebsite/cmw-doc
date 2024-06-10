@@ -35,7 +35,7 @@ return [
 
 Les clés ne doivent pas comporter ni d’accents ni de caractères spéciaux ni espaces. Il est important de suivre les 
 conventions du CMS pour garantir une bonne maintenabilité dans le temps. Les clés doivent suivre les conventions **camelCase**
-![Représentation de la convention camelCase.](../../../Assets/Img/img.png)
+![Représentation de la convention camelCase.](/Assets/Img/CamelCase.png)
 
 ## Utiliser les traductions
 
