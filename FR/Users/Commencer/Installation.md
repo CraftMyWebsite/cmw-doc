@@ -22,6 +22,9 @@ Cocher la case « J’ai lu et j’accepte les conditions générales d’utilis
 Passons désormais la première étape de l’installation !
 
 
+---
+
+
 #### Etape n°1 : Configuration de la base de données
 Rentrer les données fourni par votre hébergeur 
 
