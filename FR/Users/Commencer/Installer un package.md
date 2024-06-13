@@ -1,4 +1,4 @@
-##Installation d’un package :
+## Installation d’un package :
 
 
 Aujourd’hui, nous allons vous expliquer comment installer et mettre à jour un package.
