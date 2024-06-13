@@ -12,7 +12,11 @@ De nombreux paramètres s’offre à vous ! Surtout pensez à bien **sauvegarder
 
 ![Image panel admin save thème](Assets/Img/ThemePackageMAJ/Theme2.png "Save thème panel")
 
-## Dépendances (facultatif)
+
+---
+
+
+#### Dépendances (facultatif)
 
 Certains thèmes pourront vous demander d’installer des packages pour leur fonctionnement, c’est en général facultatif.
 Vous pouvez d’ailleurs masquer le message (celui-ci s’affiche sur l’accueil de votre site) 
