@@ -31,10 +31,18 @@ Avec Webstrator retrouvez vos données ici :
 
 ![Image site install](Assets/Img/Installation/Install5.png "BDD Webstrator")
 
+
+---
+
+
 #### Etape N°2 : Nom du site 
 A vous de remplir ce que vous souhaitez !
 
 ![Image site install](Assets/Img/Installation/Install6.png "install.php sur le site")
+
+
+---
+
 
 #### Etape N°3 : **Choix du Bundles**
 
@@ -44,11 +52,19 @@ Qu’est-ce qu’un Bundle ?
 Un bundle est un choix de thème et de package qui seront installés directement sur votre site.
 Pour ma part j’ai choisi le bundle Minecraft
 
+
+---
+
+
 #### Etape N°4 : Création du compte administrateur 
 
 ![Image site install](Assets/Img/Installation/Install8.png "install.php sur le site")
 
 A vous de jouer à nouveau ! 
+
+
+---
+
 
 #### Etape N°5 : Félicitation ! L’installation du CMS CraftMyWebsite est terminée !
 
