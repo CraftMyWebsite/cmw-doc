@@ -70,10 +70,8 @@ sudo systemctl restart apache2
 ### Étape 7 : Télécharger et installer CraftMyWebsite
 Téléchargez CraftMyWebsite depuis le site officiel ou le dépôt GitHub.
 ```bash
-cd /var/www
-rm -r html
-sudo git clone https://github.com/votre-depot/craftmywebsite.git
-sudo mv cmw-core html
+cd /var/www/html
+sudo wget https://github.com/CraftMyWebsite/cmw-installer/blob/main/install.php
 ```
 
 Définissez les permissions appropriées pour les fichiers et répertoires.
@@ -84,4 +82,4 @@ sudo find /var/www/html -type f -exec chmod 644 {} \;
 ```
 
 ### Étape 8 : Terminer l'installation via le navigateur
-Ouvrez votre navigateur et accédez à http://votre_ip_ou_nom_de_domaine. Suivez les instructions de l'assistant d'installation de CraftMyWebsite pour terminer la configuration.
+Ouvrez votre navigateur et accédez à http://votre_ip_ou_nom_de_domaine/install.php. Suivez les instructions de l'assistant d'installation de CraftMyWebsite pour terminer la configuration.
