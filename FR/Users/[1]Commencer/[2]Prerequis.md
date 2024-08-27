@@ -3,7 +3,7 @@ Pour installer et exécuter CraftMyWebsite, votre serveur doit répondre aux exi
 
 ### PHP
 
-- **Version** : PHP 8.1 ou supérieure
+- **Version** : PHP 8.3 ou supérieure
 - **Extensions requises** :
     - `php-mysql`
     - `php-gd`
