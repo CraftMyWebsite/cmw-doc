@@ -9,7 +9,7 @@ https://votresite.fr/cmw-admin/packages/market
 
 Vous voici sur le market où se trouve l’ensemble des packages du cms : 
 
-![Image market panel](Assets/Img/ThemePackageMAJ/Package1 "Visuel market panel")
+![Image market panel](Assets/Img/ThemePackageMAJ/Package1.png "Visuel market panel")
 
 Pour installer un package rien de bien compliqué appuyer sur « Installer » et voilà ! 
 Vous pouvez retrouvez l’ensemble de vos packages installés dans « Mes packages » dans votre menu à gauche (d’ailleurs allons-y !) 
