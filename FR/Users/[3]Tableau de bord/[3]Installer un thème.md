@@ -1,14 +1,12 @@
-## Installation et paramétrages d’un thème :
-
-Le fonctionnement est le même que pour les packages ! 
 Rendez-vous sur cette page :  https://votresite.fr/cmw-admin/theme/market
-Vous arrivez sur le market des thèmes : 
+
+Sur cette page, vous êtes relié au market officiel de [CraftMyWebsite.fr](https://crafmywebsite.fr/market) :
 
 ![Image panel admin install thème](Assets/Img/ThemePackageMAJ/Theme1.png "Install thème panel")
 
-Installer celui que vous souhaitez, pour ma part j’ai choisi Vega.
-Vous arrivez ensuite sur cette page, c’est désormais partie pour la configuration de votre thème.
-De nombreux paramètres s’offre à vous ! Surtout pensez à bien **sauvegarder vos modifications !** 
+Installer celui que vous souhaitez.
+
+Dans la plupart des cas les thèmes ont des configurations spécifiques que vous pouvez modifier sur cette page :  https://votresite.fr/cmw-admin/theme/manage
 
 ![Image panel admin save thème](Assets/Img/ThemePackageMAJ/Theme2.png "Save thème panel")
 
