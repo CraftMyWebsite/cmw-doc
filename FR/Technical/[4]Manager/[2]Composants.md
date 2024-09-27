@@ -26,19 +26,7 @@ Nous vous recommandons d'examiner le code de chaque composant afin de découvrir
 
 Pour faciliter cette exploration et l'intégration des composants, nous vous conseillons d'utiliser un IDE tel que **PHPStorm**. Cet outil est capable de générer automatiquement les besoins des composants (comme les propriétés et méthodes à implémenter) et fournit l'autocomplétion, rendant ainsi le processus de développement plus fluide et efficace. Cela vous permettra de gagner du temps tout en facilitant la compréhension du code et l'intégration des composants dans vos projets.
 
-::: info
-N'oubliez pas d'importer les Namespaces de chaque composant que vous utilisez
-:::
-
-::: success
-N'oubliez pas d'importer les Namespaces de chaque composant que vous utilisez
-:::
-
 ::: warning
-N'oubliez pas d'importer les Namespaces de chaque composant que vous utilisez
-:::
-
-::: danger
 N'oubliez pas d'importer les Namespaces de chaque composant que vous utilisez
 :::
 
