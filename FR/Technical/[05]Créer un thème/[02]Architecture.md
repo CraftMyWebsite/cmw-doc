@@ -2,9 +2,9 @@ Dans cette section, nous allons définir l'architecture à respecter pour la cr�
 
 [Télécharger l'archive de l'exemple de structure de thème](Assets/Zip/Example-Theme.zip)
 
-> **L'archive téléchargeable contient tous les fichiers et dossiers de base nécessaires pour débuter la création de votre thème. Elle inclut les codes essentiels pour vous faire gagner du temps et éviter de repartir de zéro. En utilisant cette structure préconfigurée, vous pourrez rapidement configurer les éléments clés de votre thème et vous concentrer sur l'ajout de contenu et de fonctionnalités spécifiques.
+> L'archive téléchargeable contient tous les fichiers et dossiers de base nécessaires pour débuter la création de votre thème. Elle inclut les codes essentiels pour vous faire gagner du temps et éviter de repartir de zéro. En utilisant cette structure préconfigurée, vous pourrez rapidement configurer les éléments clés de votre thème et vous concentrer sur l'ajout de contenu et de fonctionnalités spécifiques.
 Nous l'utiliserons dans les prochaines étapes de cette documentation !
-> Si vous tester directement cet exemple celui-ci fonctionne directement**
+> Si vous tester directement cet exemple celui-ci fonctionne directement
 
 ### Règles de nommage
 - **Nom des dossiers** : Le premier caractère doit être une majuscule, tous les autres en minuscules.
@@ -67,6 +67,8 @@ Voici la structure complète que votre thème doit respecter :
 **Nom des fichiers dans les views**
 
 Tout les fichiers PHP se trouvant dans l'architecture des Views doivent s'appeler filename.**view.php** et doivent avoir leur nom en corréspondance avec la déclaration faite dans le controller du package !
+
+Pour ce qui est des includes, merci de respecter ces noms `footer.inc.php`, `head.inc.php` et `header.inc.php` : 
 :::
 
 ---

@@ -12,3 +12,11 @@ Enfin, nous aborderons l'ajout de **routes personnalisées** sans qu'il soit né
 
 ### Conclusion
 Cette documentation est conçue pour vous offrir une compréhension approfondie des mécanismes internes du système, tout en vous donnant la possibilité de personnaliser et d'étendre les fonctionnalités à votre guise.
+
+---
+
+::: info
+**TIPS**
+
+La meilleure chose à faire quand vous souhaitez créer un thème qui intègre beaucoup de package est de vérifier les noms des Views dans un package officiel pour être sûr d'utiliser la bonne architecture et les bons noms de Dossier/Fichiers
+:::
