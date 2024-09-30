@@ -68,7 +68,7 @@ Voici la structure complète que votre thème doit respecter :
 
 Tout les fichiers PHP se trouvant dans l'architecture des Views doivent s'appeler filename.**view.php** et doivent avoir leur nom en corréspondance avec la déclaration faite dans le controller du package !
 
-Pour ce qui est des includes, merci de respecter ces noms `footer.inc.php`, `head.inc.php` et `header.inc.php` : 
+Pour ce qui est des includes, merci de respecter ces noms `footer.inc.php`, `head.inc.php` et `header.inc.php`
 :::
 
 ---

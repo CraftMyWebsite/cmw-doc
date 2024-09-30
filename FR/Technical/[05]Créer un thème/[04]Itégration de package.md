@@ -9,7 +9,7 @@ L'intégration de packages compatibles mais non obligatoires permet d'offrir des
 n'est **nécessaire que dans certains cas précis**. En effet, cette vérification est utile uniquement lorsque vous utilisez un package optionnel dans des vues qui ne sont **pas spécifiquement dédiées à ce package**.
 
 ### Cas où la vérification est nécessaire
-La vérification est nécessaire **lorsque vous souhaitez intégrer du code lié à un package optionnel dans des vues génériques de votre thème**. Par exemple, si vous avez une vue globale comme un fichier `home.view.php`, `header.inc.php` ... ou une page personnalisée dans laquelle vous souhaitez inclure des éléments du package Contact, mais uniquement si ce package est installé, vous devez faire cette vérification.
+La vérification est nécessaire **lorsque vous souhaitez intégrer du code lié à un package optionnel dans des vues génériques de votre thème**. Par exemple, si vous avez une vue globale comme un fichier `home.view.php`, `header.inc.php` ... ou une page personnalisée dans laquelle vous souhaitez inclure des éléments du package Shop, mais uniquement si ce package est installé, vous devez faire cette vérification.
 
 Exemple d'intégration dans votre menu de navigation `header.inc.php` du lien menant vers le panier du package Shop :
 ```php
