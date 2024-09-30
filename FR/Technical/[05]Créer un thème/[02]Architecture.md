@@ -22,6 +22,7 @@ Voici la structure complète que votre thème doit respecter :
 /Public/Themes/Example
 │
 ├── /Theme.php                      (Contient les informations du thème - important)
+├── /router.php                     (Voir section router.php)
 │
 ├── /Assets
 │   ├── /Css
