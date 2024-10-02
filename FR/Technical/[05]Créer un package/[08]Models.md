@@ -112,6 +112,7 @@ Dans ce modèle, nous utilisons le **UsersModel**, un modèle natif du Core, pou
 
 **Remarque Importante**
 Tout comme pour les entités, il est recommandé d'utiliser uniquement des models provenant de packages natifs ou du Core. Cela évite des erreurs critiques si l'utilisateur n'a pas installé certains packages.
+
 ---
 ### Les Models (Suite)
 En plus de la récupération des données via des requêtes SQL, les **models** permettent d'effectuer des actions de création, modification et suppression de données dans la base. Dans cette section, nous allons ajouter trois nouvelles méthodes au modèle **ExampleModel** pour gérer les FAQ : ajouter, éditer et supprimer des entrées.
