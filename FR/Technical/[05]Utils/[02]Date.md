@@ -5,6 +5,13 @@ La classe `Date` permet la gestion des données temporelles
 
 La classe `Date` du namespace `CMW\Utils` propose des méthodes statiques pour manipuler et formater des données temporelles comme la conversion de secondes en format de temps, et la récupération des mois, semaines et jours passés. Elle fait également appel à des fonctions PHP natives comme `date`, `idate`, et `strtotime`, ainsi qu'à des méthodes de traduction issues du `LangManager`.
 
+### Méthode `formatDate()`
+Cette méthode statique convertit une date donnée en un format spécifique, basé sur une option de configuration.
+```php
+$formattedDate = Date::formatDate('2024-06-18 12:13:38');
+echo $formattedDate; // Affichera la date formatée selon le format spécifié dans l'option 'dateFormat'
+```
+
 ### Méthode `secondsToTime()`
 
 Cette méthode statique convertit un nombre donné de secondes en un format de temps lisible, avec les heures, minutes et secondes.
