@@ -42,10 +42,45 @@ Remplacer newuser par l’utilisateur de votre choix, pour le password n’enlev
     quit
     ```
   
-### Étape 4 : Installer PHP et les extensions requises
+### Étape 4 : Installer PHP-8.3 et les extensions requises
+
+#### Debian (10, 11, and 12) :
+```bash
+# Save existing php package list to packages.txt file
+sudo dpkg -l | grep php | tee packages.txt
+
+# Add Ondrej's repo source and signing key along with dependencies
+sudo apt install apt-transport-https
+sudo curl -sSLo /usr/share/keyrings/deb.sury.org-php.gpg https://packages.sury.org/php/apt.gpg
+sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/deb.sury.org-php.gpg] https://packages.sury.org/php/ $(lsb_release -sc) main" > /etc/apt/sources.list.d/php.list'
+sudo apt update
+```
+
+#### Ubuntu (20.04, 22.04, et 24.04) :
+```bash
+## Save existing php package list to packages.txt file
+sudo dpkg -l | grep php | tee packages.txt
+
+# Add Ondrej's PPA
+sudo add-apt-repository ppa:ondrej/php # Press enter when prompted.
+sudo apt update
+```
+
 Installez PHP et les extensions nécessaires.
 ```bash
-sudo apt install php php-mysql php-gd php-curl php-pdo php-json php-mbstring php-zip -y
+sudo apt install php8.3 php8.3-mysql php8.3-gd php8.3-curl php8.3-pdo php8.3-mbstring php8.3-zip -y
+```
+
+Vérifier votre version php :
+```bash
+php -v
+```
+Devrais vous renvoyer :
+```bash
+PHP 8.3.12 (cli) (built: Sep 27 2024 03:53:05) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.12, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.12, Copyright (c), by Zend Technologies
 ```
 
 ### Étape 5 : Configurer Apache2 pour PHP
