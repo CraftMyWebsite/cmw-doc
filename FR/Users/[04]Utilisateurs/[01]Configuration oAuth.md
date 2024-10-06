@@ -1,6 +1,3 @@
-## C'est quoi l'oAuth 2.0 ?
-
-
 OAuth 2.0 est un protocole d'autorisation standardisé qui permet à une application d'accéder à tes données sur un autre
 site (comme Google), sans partager ton mot de passe.
 ---
