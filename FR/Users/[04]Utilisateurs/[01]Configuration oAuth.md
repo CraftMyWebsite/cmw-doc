@@ -1,8 +1,5 @@
-OAuth 2.0 est un protocole d'autorisation standardisé qui permet à une application d'accéder à tes données sur un autre
+oAuth 2.0 est un protocole d'autorisation standardisé qui permet à une application d'accéder à tes données sur un autre
 site (comme Google), sans partager ton mot de passe.
----
-
-## Utiliser Google oAuth
 
 ### Étape 1 : Créer un compte Google Cloud Console
 
