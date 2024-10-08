@@ -1,6 +1,3 @@
-oAuth 2.0 est un protocole d'autorisation standardisé qui permet à une application d'accéder à tes données sur un autre
-site (comme Google), sans partager ton mot de passe.
-
 ### Étape 1 : Créer un compte Google Cloud Console
 
 - Pour commencer la configuration, vous devez vous rendre sur
@@ -8,7 +5,7 @@ site (comme Google), sans partager ton mot de passe.
   Une fois dessus, connectez-vous à votre compte Google.
 - Sélectionnez un projet, sinon créez-en un.
 
-![Google Cloud Console - Accueil](Assets/Img/Users/Users/oAuth/google_cloud_console_home.png "Google Cloud Console - Accueil")
+![Google Cloud Console - Accueil](Assets/Img/Users/OAuth/Google/google_cloud_console_home.png "Google Cloud Console - Accueil")
 
 ### Étape 2 : Création identifiants
 
@@ -17,7 +14,7 @@ site (comme Google), sans partager ton mot de passe.
 - Cliquez sur "Créer des identifiants"
 - Sélectionnez "ID client OAuth"
 
-![Google Cloud Console - Identifiants](Assets/Img/Users/Users/oAuth/google_cloud_console_identifiants.png "Google Cloud Console - Identifiants")
+![Google Cloud Console - Identifiants](Assets/Img/Users/OAuth/Google/google_cloud_console_identifiants.png "Google Cloud Console - Identifiants")
 
 - Si vous n'avez pas encore configuré l'écran d'autorisation, faites-le. De mon côté, il est déjà configuré.
 - Sélectionnez en type d'application "Application Web"
@@ -25,7 +22,7 @@ site (comme Google), sans partager ton mot de passe.
 - Dans la section "URI de redirection autorisés", cliquez sur "Ajouter un URI", et
   ajoutez : `https://monsite.com/api/oauth/google/connect` (remplacez monsite.com par votre domaine.)
 
-![Google Cloud Console - Identifiants Création](Assets/Img/Users/Users/oAuth/google_cloud_console_identifiants_create.png "Google Cloud Console - Identifiants Création")
+![Google Cloud Console - Identifiants Création](Assets/Img/Users/OAuth/Google/google_cloud_console_identifiants_create.png "Google Cloud Console - Identifiants Création")
 
 Cliquez ensuite sur Créer...
 
@@ -44,5 +41,5 @@ Code secret du client".
 - Cliquez sur sauvegarder
 
 ::: info
-Si votre thème supporte les connexions oAuth, Google sera automatiquement affiché et disponible.
+Si votre thème supporte les connexions OAuth, Google sera automatiquement affiché et disponible.
 :::
