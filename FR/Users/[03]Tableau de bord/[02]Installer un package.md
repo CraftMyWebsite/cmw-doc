@@ -8,6 +8,3 @@ Sur cette page, vous êtes relié au market officiel de [CraftMyWebsite.fr](http
 ---
 
 **Avant de faire des mises à jour de package nous vous conseillons de sauvegarder votre site et votre base de données même si dans la plupart des cas les mises à jour sont testé**
-
-
-(Photo à insérer)
