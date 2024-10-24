@@ -1,6 +1,6 @@
 ## Mettre à jour le cms 
 
-Vous pouvez vérifier en bas à droite du panel le statut des mises à jour de votre CMS
+Une notification apparaît sur votre tableau bord ainsi que sur l'onglet Mise à jour
 
 En cliquant dessus, vous arrivez sur la page mise à jour.
 
