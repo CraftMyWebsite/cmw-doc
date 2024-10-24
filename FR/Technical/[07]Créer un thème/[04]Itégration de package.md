@@ -1,3 +1,28 @@
+Pour intégrer des packages dans vos thèmes, vous devez respecter quelque règles :
+- Si le package que vous intégrer est par exemple Faq vous devrez vous reférez au controller public du package en question pour savoir dans quel dossier Views celui-ci vient récupérer vos pages
+- Nommer les views en fonction de la demande du controller 
+
+### Example
+
+```php
+#[Link('/faq', Link::GET)]
+    private function frontFaqPublic(): void
+    {
+        $faqList = FaqModel::getInstance()->getFaqs();
+
+        View::createPublicView('Faq', 'main')->addVariableList(['faqList' => $faqList])->view();
+    }
+```
+Ici, il me faut un dossier Faq dans les Views de mon thème et un fichier main.view.php
+
+::: info
+**TIPS**
+
+Les packages gèrent leurs propres vues publiques dans le dossier /Public du package, servez-vous des fichiers de vue comme exemple d'intégration
+:::
+
+## Intégration dans des views non gérer par le pacakge : 
+
 Gérer les packages compatibles, mais optionnel.
 
 L'intégration de packages compatibles mais non obligatoires permet d'offrir des fonctionnalités supplémentaires aux utilisateurs, à condition que ces packages soient installés. Cependant, il est important de noter que la vérification manuelle de l'installation d'un package via la méthode :
