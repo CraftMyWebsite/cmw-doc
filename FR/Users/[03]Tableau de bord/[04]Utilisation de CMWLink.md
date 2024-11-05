@@ -17,7 +17,7 @@ Vous devez donc au préalable installé le __package Minecraft__ sur votre site.
 
 ### Etape 2 : Téléchargement de CraftMyWebsiteLink et de ses dépendances
 
-Téléchargez le plugin sur le [market de CraftMyWebsite](https://crafmywebsite.fr/market)
+Téléchargez le plugin sur le [market de CraftMyWebsite](https://craftmywebsite.fr/market/details/cmw-link)
 
 Installez les dépendances dont vous avez besoin.
 
