@@ -1,6 +1,6 @@
 Dans cette section, nous allons définir l'architecture à respecter pour la création d'un thème dans le système. Chaque dossier et fichier doit suivre une nomenclature précise pour garantir une bonne organisation et une intégration correcte avec le système.
 
-[Télécharger l'archive de l'exemple de structure de thème](Assets/Zip/Example-Theme.zip)
+[Télécharger l'archive de l'exemple de structure de thème](https://github.com/CraftMyWebsite/cmw-doc/raw/main/Assets/Zip/Example-Theme.zip)
 
 > L'archive téléchargeable contient tous les fichiers et dossiers de base nécessaires pour débuter la création de votre thème. Elle inclut les codes essentiels pour vous faire gagner du temps et éviter de repartir de zéro. En utilisant cette structure préconfigurée, vous pourrez rapidement configurer les éléments clés de votre thème et vous concentrer sur l'ajout de contenu et de fonctionnalités spécifiques.
 Nous l'utiliserons dans les prochaines étapes de cette documentation !
