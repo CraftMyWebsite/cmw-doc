@@ -36,9 +36,9 @@ Voici la structure complète que votre thème doit respecter :
 │
 ├── /Views
 │   ├── /template.php               (Le gestionnaire du thème - important)
-│   ├── /Alerts                     (Natif)
 │   ├── /Contact                    (Package)
 │   ├── /Core                       (Natif)
+│       └── /Alerts                 (Natif)
 │   ├── /Errors                     (Natif)
 │   ├── /Includes                   (Important)
 │   ├── /Pages                      (Natif)
