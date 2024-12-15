@@ -118,3 +118,4 @@ sudo find /var/www/html -type f -exec chmod 644 {} \;
 
 ### Étape 8 : Terminer l'installation via le navigateur
 Ouvrez votre navigateur et accédez à http://votre_ip_ou_nom_de_domaine/install.php. Suivez les instructions de l'assistant d'installation de CraftMyWebsite pour terminer la configuration.
+
