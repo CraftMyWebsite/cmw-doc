@@ -46,6 +46,14 @@ Dans notre cas, le thème s'appellera `Example`.
 
 ### 1. Forker et cloner le repository
 
+::: warning
+
+Attention, vous ne pouvez faire un Fork qu'une seul fois, si vous souhaitez créer plusieur thèmes veuillez suivre ces étapes :
+- [Télécharger l'archive du repo](https://github.com/CraftMyWebsite/cmw-theme-tailwindcss-template/archive/refs/heads/main.zip) 
+- [Créer un nouveau repo](https://github.com/new) sur votre compte GitHub
+- Initialiser ce repo avec l'archive précédemment télécharger
+:::
+
 **Info :** Un Fork permet de créer un repository à partir d'un repository déjà existant. Cela vous permet de le modifier et de mettre à jour vos modifications sans interférer avec le repository initial.
 
 - Rendez-vous sur [ce lien](https://github.com/CraftMyWebsite/cmw-theme-tailwindcss-template/fork) pour créer un Fork du repository initial.
