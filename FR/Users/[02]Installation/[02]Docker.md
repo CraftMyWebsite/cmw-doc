@@ -10,7 +10,7 @@ cd craftmywebsite
 ### Étape 2 : Construction du conteneur
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 ### Étape 3 : Accéder à votre site CraftMyWebsite
