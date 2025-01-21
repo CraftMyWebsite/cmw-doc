@@ -65,7 +65,7 @@ Vous pouvez vérifier la liaison en cliquant sur :
 
 une popup vous donnera le résultat de connexion avec votre serveur Minecraft
 
-![Image Port default ](Assets/Img/CMWLink/Link9.png "Port default CMWLink")
+![Image Port default ](Assets/Img/CMWLink/Link9.jpg "Port default CMWLink")
 
 ### Etape 5 : Utilisation sur Bungeecord/Velocity 
 
