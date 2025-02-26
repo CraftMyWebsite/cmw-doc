@@ -31,16 +31,16 @@ Si vous utilisez OVH, voici les paramètres à renseigner :
 
 ## Étape 2 : Configuration dans le panel
 
-- Rendez-vous su votre panel 
+- Rendez-vous sur votre panel
   - Paramètres -> SMTP et mails
-- Compléter les informations de votre fournisseur de mail de l'étape 1
+- Complétez les informations de votre fournisseur de mail de l'étape 1
 
 ![smtp](Assets/Img/Users/Mail/1.png "smtp")
 
 - Pensez à cocher SMTP
-- Sauvegarder avant de tester !
+- Sauvegardez avant de tester !
 
-Effectuer un test sur n'importe quel adresse mail (votre perso par exemple).
+Effectuez un test sur n'importe quelle adresse mail (votre adresse personnelle, par exemple).
 
 ![test](Assets/Img/Users/Mail/2.png "test")
 
@@ -48,4 +48,4 @@ Vous avez dû recevoir ceci si tout fonctionne correctement :
 
 ![preview](Assets/Img/Users/Mail/3.png "preview")
 
-C'est terminé, le CMS peut maintenant envoyer des mails.
+C'est terminé, le CMS est maintenant capable d'envoyer des mails.
