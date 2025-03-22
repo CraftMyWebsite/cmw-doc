@@ -61,14 +61,14 @@ Puis ajouter le serveur sur votre site
 
 Vous pouvez vérifier la liaison en cliquant sur :
 
+
 ![Image Port default ](Assets/Img/CMWLink/Link8.png "Port default CMWLink")
 
-une popup vous donnera le résultat de connexion avec votre serveur Minecraft
+une popup vous donnera le résultat de connexion avec votre serveur Minecraft ainsi que d'un check 
 
-![Image Port default ](Assets/Img/CMWLink/Link9.png "Port default CMWLink")
 
 ### Etape 5 : Utilisation sur Bungeecord/Velocity 
 
-Veillez à mettre dans le settings.json la ligne 8 "useProxy" sur "true"
+Veillez à mettre dans le settings.json la ligne 8 "useProxy" sur "true" **uniquement pour une utilisation sur Bungeecord ou Velocity**
 
 ![Image Port default ](Assets/Img/CMWLink/Link10.png "Port default CMWLink")
