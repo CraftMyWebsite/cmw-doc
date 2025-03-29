@@ -39,6 +39,8 @@ Voici la structure de dossier que doit respecter votre package Example :
 ├── /Models
 │   └── /Modeltype                    (Sous-dossiers pour gros projets)
 │
+├── /Public
+│
 ├── /Views
 │   └── /Viewtype                     (Sous-dossiers pour les vues spécifiques)
 │
@@ -52,6 +54,7 @@ Voici la structure de dossier que doit respecter votre package Example :
 - **/Implementations** : Définit les implémentations spécifiques, avec le nom du package implémenté, ce qui est essentiel pour le bon chargement des dépendances.
 - **/Init** : Fichiers d'initialisation du package.
 - **/Lang** : Gestion des fichiers de traduction et localisation.
+- **/Public** : Affiche les public View si le thème ne les gère pas.
 - **/Views** : Gestion des vues avec une structure hiérarchique claire pour les différents types de templates.
 - **/README.md** : Fichier de documentation détaillant le package et son utilisation.
 
