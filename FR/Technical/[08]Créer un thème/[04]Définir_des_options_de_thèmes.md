@@ -1,6 +1,6 @@
 ## 🧱 Structure générale
 
-Chaque fichier `editor.php` retourne un tableau de `EditorMenu`, contenant chacun un ensemble de `EditorValue`.
+Chaque fichier `config.settings.php` retourne un tableau de `EditorMenu`, contenant chacun un ensemble de `EditorValue`.
 
 ```php
 new EditorMenu(
