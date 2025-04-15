@@ -4,6 +4,12 @@ Nous allons vous guider pas à pas dans la création d'un thème complet en util
 ### Intégration du package Contact
 En parallèle, nous intégrerons également le package **Contact**, qui, lui, n'est pas natif au CORE. Cela nous permettra de vous montrer comment gérer les dépendances non obligatoires, notamment dans le cas où l'utilisateur ne disposerait pas de ce package. Vous apprendrez ainsi à prévoir et à gérer les scénarios où certaines fonctionnalités additionnelles ne sont pas installées par défaut.
 
+::: info
+**À SAVOIR**
+
+Les packages gèrent leur propre affichage public. Vous n’êtes donc pas obligé de créer des vues pour chaque package si les vues par défaut vous conviennent.
+:::
+
 ### Configuration du thème pour les utilisateurs
 Par ailleurs, nous verrons également comment configurer le thème pour offrir aux utilisateurs la possibilité de **personnaliser certains éléments**. Cela inclura des options de configuration qui permettront aux utilisateurs finaux d'ajuster certains aspects du thème en fonction de leurs préférences sans toucher au code. Cette flexibilité renforcera l'adaptabilité de votre thème et améliorera l'expérience utilisateur.
 

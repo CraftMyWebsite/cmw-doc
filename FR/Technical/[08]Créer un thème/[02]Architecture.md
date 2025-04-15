@@ -1,6 +1,6 @@
 Dans cette section, nous allons définir l'architecture à respecter pour la création d'un thème dans le système. Chaque dossier et fichier doit suivre une nomenclature précise pour garantir une bonne organisation et une intégration correcte avec le système.
 
-[Télécharger l'archive de l'exemple de structure de thème](https://github.com/CraftMyWebsite/cmw-doc/raw/main/Assets/Zip/Example-Theme.zip)
+[Télécharger l'archive de l'exemple de structure de thème](https://github.com/CraftMyWebsite/cmw-doc/raw/main/Assets/Zip/Example-Theme-V2.zip)
 
 > L'archive téléchargeable contient tous les fichiers et dossiers de base nécessaires pour débuter la création de votre thème. Elle inclut les codes essentiels pour vous faire gagner du temps et éviter de repartir de zéro. En utilisant cette structure préconfigurée, vous pourrez rapidement configurer les éléments clés de votre thème et vous concentrer sur l'ajout de contenu et de fonctionnalités spécifiques.
 Nous l'utiliserons dans les prochaines étapes de cette documentation !
@@ -15,6 +15,7 @@ Les thèmes sont toujours situés dans le répertoire suivant :
 
 `/Public/Themes/X`, où X représente le nom du thème. Dans notre cas, nous allons créer un thème nommé **Example**.
 Mais nous n'allons pas créer de CSS pour celui-ci à vous de le créer vous même ou d'utilisez des Framework comme Bootstrap, TailwindCSS ...
+Si vous souhaitez utiliser TailwindCss [referez-vous à la documentation](https://craftmywebsite.fr/docs/fr/technical/creer-un-theme/template-tailwindcss)
 ### Détail de la structure
 Voici la structure complète que votre thème doit respecter :
 
@@ -31,8 +32,7 @@ Voici la structure complète que votre thème doit respecter :
 │
 ├── /Config
 │   ├── /Default
-│   ├── /config.php
-│   └── /config.settings.php
+│   ├── /config.settings.php
 │
 ├── /Views
 │   ├── /template.php               (Le gestionnaire du thème - important)
@@ -55,7 +55,6 @@ Voici la structure complète que votre thème doit respecter :
 
 **3. /Config** : Ce dossier contient les fichiers de configuration du thème.
 - **/Default** : Peut contenir des configurations par défaut comme des images ...
-- **config.php** : Contient la configuration principale du thème affiché dans la partie administrateur.
 - **config.settings.php** : Gère les paramètres du thème, que les utilisateurs peuvent personnaliser.
 
 **4. /Views** : Ce dossier contient les fichiers de vue du thème, incluant la gestion du rendu des différentes parties de l'interface.
