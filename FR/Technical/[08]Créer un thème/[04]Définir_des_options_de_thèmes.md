@@ -17,18 +17,19 @@ new EditorMenu(
 
 ## 🎛️ Types disponibles (`EditorType`)
 
-| Type          | Constante                | Description                              |
-|---------------|---------------------------|------------------------------------------|
-| Texte         | `TEXT`                    | Champ texte simple                       |
-| Zone de texte | `TEXTAREA`                | Champ multilignes (ex: HTML, long texte) |
-| Nombre        | `NUMBER`                  | Champ numérique                          |
-| Icon          | `FONTAWESOMEPICKER`       | Séléctionne une icon FontAwesome         |
-| Booléen       | `BOOLEAN`                 | Case à cocher                            |
-| Couleur       | `COLOR`                   | Picker de couleur                        |
-| Image         | `IMAGE`                   | Importer une image                       |
-| CSS libre     | `CSS`                     | Code CSS direct                          |
-| Liste         | `SELECT`                  | Liste déroulante                         |
-| Curseur       | `RANGE`                   | Slider personnalisable                   |
+| Type          | Constante              | Description                        |
+|---------------|------------------------|------------------------------------|
+| Texte         | `TEXT`                 | Champ texte simple                 |
+| Zone de texte | `TEXTAREA`             | Champ multilignes (ex: long texte) |
+| Zone HTML     | `HTML`                 | Champ HTMl                         |
+| Nombre        | `NUMBER`               | Champ numérique                    |
+| Icon          | `FONTAWESOMEPICKER`    | Séléctionne une icon FontAwesome   |
+| Booléen       | `BOOLEAN`              | Case à cocher                      |
+| Couleur       | `COLOR`                | Picker de couleur                  |
+| Image         | `IMAGE`                | Importer une image                 |
+| CSS libre     | `CSS`                  | Code CSS direct                    |
+| Liste         | `SELECT`               | Liste déroulante                   |
+| Curseur       | `RANGE`                | Slider personnalisable             |
 
 ---
 
