@@ -28,3 +28,5 @@
 - Toujours bien nommer les clés (`themeKey`) : concises et explicites
 - Regrouper les options par onglet logique (header, footer...)
 - Penser à la compatibilité responsive si tu ajoutes du style via `data-cmw-style`
+
+Pour aller plus loins et vous facilitez les configurations, referez-vous à la page suivante.

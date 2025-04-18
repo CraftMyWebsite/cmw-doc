@@ -23,7 +23,7 @@ new EditorMenu(
 | Zone de texte | `TEXTAREA`             | Champ multilignes (ex: long texte) |
 | Zone HTML     | `HTML`                 | Champ HTMl                         |
 | Nombre        | `NUMBER`               | Champ numérique                    |
-| Icon          | `FONTAWESOMEPICKER`    | Séléctionne une icon FontAwesome   |
+| Icon          | `FONTAWESOMEPICKER`    | Sélectionne une icon FontAwesome   |
 | Booléen       | `BOOLEAN`              | Case à cocher                      |
 | Couleur       | `COLOR`                | Picker de couleur                  |
 | Image         | `IMAGE`                | Importer une image                 |
