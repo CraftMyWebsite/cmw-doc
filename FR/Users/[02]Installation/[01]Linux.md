@@ -68,7 +68,7 @@ sudo apt update
 
 Installez PHP et les extensions nécessaires.
 ```bash
-sudo apt install php8.3 php8.3-mysql php8.3-gd php8.3-curl php8.3-pdo php8.3-mbstring php8.3-zip -y
+sudo apt install php8.3 php8.3-xml php8.3-mysql php8.3-gd php8.3-curl php8.3-pdo php8.3-mbstring php8.3-zip -y
 ```
 
 Vérifier votre version php :
