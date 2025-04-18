@@ -167,12 +167,16 @@ Exemple :
 ```html
 <p data-cmw-visible="X:Y"></p>
 ```
+::: warning
+Pour encapsuler la visibilité, vous devez impérativement le placer dans une balise `visibility`.
+Elle n'existe pas de base, mais est reconnu par le CMS !
+:::
 ```html
-<span data-cmw-visible="X:Y">
+<visibility data-cmw-visible="X:Y">
     <p>Élément 1</p>
     <p>Élément 2</p>
     <p>Élément 3</p>
-</span>
+</visibility>
 ```
 
 Ceci est applicable sur n'importe quel type de balise.
