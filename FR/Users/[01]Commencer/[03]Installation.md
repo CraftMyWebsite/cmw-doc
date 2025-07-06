@@ -1,7 +1,7 @@
-Si vous souhaitez installer le cms sur un vps ou un dédié, veuillez suivre [ce tutoriel](https://dev.craftmywebsite.fr/docs/fr/users/linux/installation)
+Si vous souhaitez installer le cms sur un vps ou un dédié, veuillez suivre [ce tutoriel](https://craftmywebsite.fr/docs/fr/users/linux/installation)
 
 - Déposez le fichier **install.php** à la racine de votre ftp.
-[Téléchargeable ici](https://reborn.craftmywebsite.fr/download)
+[Téléchargeable ici](https://craftmywebsite.fr/download)
 ![Image FTP install](Assets/Img/Installation/Install1.png "Install.php dans le FTP")
 
 
