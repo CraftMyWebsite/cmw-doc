@@ -179,6 +179,27 @@ Ceci est applicable sur n'importe quel type de balise.
 
 ---
 
+## `data-cmw-var="--var:X:Y"`
+Permet de modifier dynamiquement des variables CSS personnalisées (--ma-var) utilisées dans des styles complexes (linear-gradient, border, etc.)
+
+Spécifiez le nom de la variable CSS, suivi de la configuration correspondante.
+
+Pour plusieurs variables, séparez-les par un ESPACE.
+
+Il s'applique avec les `EditorType` :
+- `COLOR`
+- `TEXT`
+- `SELECT`
+
+Exemple :
+```html
+<div style="background: linear-gradient(to bottom, var(--main-color), var(--bg-color));" 
+     data-cmw-var="--main-color:global:main_color --bg-color:global:bg_color"
+></div>
+```
+
+---
+
 ::: info
 **TIPS**
 
