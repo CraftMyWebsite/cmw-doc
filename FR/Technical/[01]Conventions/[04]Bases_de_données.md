@@ -1,20 +1,29 @@
-## Conventions - Bases de données
+### 🐍 Nom des tables et colonnes
 
-Les *tables* & les *colonnes* sont à écrire en **snake_case**
-Exemple → `cmw_votes_votepoints`
+- Utilisez systématiquement le format **`snake_case`**.
+    - ✅ Exemple : `cmw_votes_votepoints`
+- Tous les noms de **tables** et **colonnes** doivent être rédigés **en anglais uniquement**.
+- Chaque table **doit obligatoirement commencer** par le préfixe `cmw_`.
+    - ✅ Exemple : `cmw_users`
 
-Le nom des colonnes / tables est à écrire impérativement en **anglais**!
+### 🔐 Contraintes
 
-De plus il est important de commenter les colonnes qui contiennent des valeurs numériques difficilement 
-compréhensibles sans documentation, comme les tinyint.
+- **Toute table doit posséder au minimum une clé primaire.**
+- **Les colonnes contenant des valeurs numériques complexes** (ex : `tinyint`) doivent être **commentées** pour en expliquer la signification.
 
-Toutes les tables doivent avoir comme prefixe `cmw_`, exemple: `cmw_users`
+### 🧠 Rappel du nom de la table dans les colonnes
 
-Toute table doit posséder au **minimum** une contrainte de clé primaire.
+Pour chaque colonne :
 
-Il est important de rappeler le nom de la table dans votre colonne.
+- Si **ce n’est pas une clé étrangère** → le nom de la colonne doit référencer **la table actuelle**.
+- Si **c’est une clé étrangère** → la colonne doit référencer **la table étrangère**.
 
-- Si la colonne n’est pas une colonne étrangère, il faudra référer le nom de la table actuelle.
-- Si la colonne est une colonne étrangère (possédant une contrainte de clé étrangère), il faudra renseigner le nom de la table étrangère.
+📌 **Format recommandé :**  
+`cmw_<tableName>_<columnName>`
 
-⇒ Composition : `cmw_tableName_columnName`
+#### ✅ Exemples :
+
+| Type de colonne     | Exemple                         |
+|---------------------|---------------------------------|
+| Colonne normale     | `cmw_users_username`            |
+| Clé étrangère       | `cmw_articles_user_id`          |

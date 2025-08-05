@@ -1,5 +1,3 @@
-## Conventions - Général
-
 Afin d'avoir un code propre, lisible et éditable par tous efficacement, il y a, dans votre code, 
 des conventions à suivre et à respecter scrupuleusement.
 
