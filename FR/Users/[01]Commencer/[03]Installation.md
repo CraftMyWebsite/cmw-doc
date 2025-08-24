@@ -28,6 +28,10 @@ Chez notre partenaire Webstrator retrouvez vos données ici :
 ![Image site install](Assets/Img/Installation/Install5.png "BDD Webstrator")
 
 
+Chez notre partenaire Minestrator retrouvez vos données ici :
+
+![Image site install](Assets/Img/Installation/Install10.png "BDD Minestrator")
+
 ---
 
 
