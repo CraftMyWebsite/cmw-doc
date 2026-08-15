@@ -42,7 +42,7 @@ Remplacer newuser par l’utilisateur de votre choix, pour le password n’enlev
     quit
     ```
   
-### Étape 4 : Installer PHP-8.3 et les extensions requises
+### Étape 4 : Installer PHP-8.4 et les extensions requises
 
 #### Debian (10, 11, and 12) :
 ```bash
@@ -68,7 +68,7 @@ sudo apt update
 
 Installez PHP et les extensions nécessaires.
 ```bash
-sudo apt install php8.3 php8.3-xml php8.3-mysql php8.3-gd php8.3-curl php8.3-pdo php8.3-mbstring php8.3-zip -y
+sudo apt install php8.4 php8.4-xml php8.4-mysql php8.4-gd php8.4-curl php8.4-mbstring php8.4-zip -y
 ```
 
 Vérifier votre version php :
@@ -77,10 +77,10 @@ php -v
 ```
 Devrais vous renvoyer :
 ```bash
-PHP 8.3.12 (cli) (built: Sep 27 2024 03:53:05) (NTS)
+PHP 8.4.x (cli) (built: ...) (NTS)
 Copyright (c) The PHP Group
-Zend Engine v4.3.12, Copyright (c) Zend Technologies
-    with Zend OPcache v8.3.12, Copyright (c), by Zend Technologies
+Zend Engine v4.4.x, Copyright (c) Zend Technologies
+    with Zend OPcache v8.4.x, Copyright (c), by Zend Technologies
 ```
 
 ### Étape 5 : Configurer Apache2 pour PHP

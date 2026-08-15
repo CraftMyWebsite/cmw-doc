@@ -24,13 +24,13 @@ Cette page détaille la configuration locale sur **Windows 11**, en utilisant **
 
 ## Étape 2 : Configurer WampServer pour CraftMyWebsite
 
-### 2.1 Sélectionner PHP 8.3
+### 2.1 Sélectionner PHP 8.4
 1. Cliquez gauche sur l'icône Wamp dans votre barre des tâches.
-2. Allez dans **PHP > Version > 8.3.0**. *(Voir image 1)*  
-   Si PHP 8.3 n'est pas disponible, installez-le via le gestionnaire de versions Wamp.
+2. Allez dans **PHP > Version > 8.4**. *(Voir image 1)*  
+   Si PHP 8.4 n'est pas disponible, installez-le via le gestionnaire de versions Wamp.
 
 **Image 1 :**
-![php8.3](Assets/Img/Technical/Local/php83.png "php8.3")
+![php8.4](Assets/Img/Technical/Local/php83.png "php8.4")
 
 ### 2.2 Vérifier les extensions PHP nécessaires
 Assurez-vous que les extensions suivantes sont activées :

@@ -16,7 +16,7 @@ Un compte GitHub est nécessaire pour gérer et partager vos projets. Aucune con
 ## 3. Un serveur web
 Vous aurez besoin d'un environnement d'exécution pour tester vos développements. Cela peut être un serveur local ou distant, avec les configurations suivantes :
 
-- **PHP 8.3 ou supérieur**, avec les extensions suivantes activées :
+- **PHP 8.4 ou supérieur**, avec les extensions suivantes activées :
     - `mysqli`
     - `gd`
     - `curl`

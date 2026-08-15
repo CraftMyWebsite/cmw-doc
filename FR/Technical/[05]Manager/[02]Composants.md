@@ -133,7 +133,7 @@ Utiliser ce compostant dans votre Views :
 Dans notre cas je me place dans /Themes/Craftmywebsite/Views/Core/home.view.php et j'appel mon composant :
 ```php
 <?php ImgComponent::create()
-    ->setSrc("https://reborn.craftmywebsite.fr/Public/Themes/Craftmywebsite/Config/Default/whitemarket.png")
+    ->setSrc("https://craftmywebsite.fr/Public/Themes/Craftmywebsite/Config/Default/whitemarket.png")
     ->setAlt("Test")
     ->render()
 ?>

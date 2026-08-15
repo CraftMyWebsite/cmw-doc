@@ -59,7 +59,7 @@
 
 | Langue | Fichier                                            | Emplacement        |
 |--------|----------------------------------------------------|--------------------|
-| FR     | [`fr.php`](https://reborn.craftmywebsite.fr/docs/fr/technical/i18n/panel-admin) | `{PACKAGE}/Lang/fr` |
+| FR     | [`fr.php`](https://craftmywebsite.fr/docs/fr/technical/i18n/panel-admin) | `{PACKAGE}/Lang/fr` |
 
 ---
 

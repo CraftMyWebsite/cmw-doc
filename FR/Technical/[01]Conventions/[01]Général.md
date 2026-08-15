@@ -18,9 +18,9 @@ telle une fonction ou une variable importante.
 
 **Constantes**: SCREAMING_SNAKE_CASE
 
-**FICHIERS** : [Lien de la doc pour les fichier](https://reborn.craftmywebsite.fr/docs/fr/technical/conventions/fichiers)
+**FICHIERS** : [Lien de la doc pour les fichier](https://craftmywebsite.fr/docs/fr/technical/conventions/fichiers)
 
-**i18n**: [Lien de la doc i18n](https://reborn.craftmywebsite.fr/docs/fr/technical/i18n/panel-admin)
+**i18n**: [Lien de la doc i18n](https://craftmywebsite.fr/docs/fr/technical/i18n/panel-admin)
 
 ### Exemples :
 

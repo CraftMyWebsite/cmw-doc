@@ -3,7 +3,7 @@ Pour installer et exécuter CraftMyWebsite, votre serveur doit répondre aux exi
 
 ### PHP
 
-- **Version** : PHP 8.3 ou supérieure
+- **Version** : PHP 8.4 ou supérieure
 - **Extensions requises** :
     - `php-mysql`
     - `php-gd`
@@ -47,4 +47,4 @@ Pour une meilleure expérience et des performances accrues, voici quelques recom
 
 ### Guides
 
-- Pour une installation sur un serveur Linux rendez-vous sur [la documentation d'installation ](https://reborn.craftmywebsite.fr/docs/users/linux/install)
+- Pour une installation sur un serveur Linux rendez-vous sur [la documentation d'installation ](https://craftmywebsite.fr/docs/fr/users/installation/linux)

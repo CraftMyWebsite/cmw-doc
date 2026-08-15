@@ -1,9 +1,13 @@
 ## Requirements:
 
-- PHP 8.2 ou +
+- PHP 8.4 or higher
 - MySQL / MariaDB
 
-## Extensions PHP:
+## PHP Extensions:
 
-- mbstring
+- mysqli
+- gd
+- curl
 - pdo
+- mbstring
+- zip
